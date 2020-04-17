@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(../img/lights.jpg);
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 110vh;
+}
+
+.my-navbar {
+    background-color: #0652dd;
+    color: #ffffff;
+}
+
+.navbar .nav-link {
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    color: white;
+    margin: 0px 10px;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.mega-menu {
+    background-color: transparent;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-menu {
+    border: none;
+  }
+
+.dropdown-item {
+    background-color: white;
+     padding:12px 40px 12px 20px;
+     font-size: 15px;
+     font-family: Arial;
+     font-weight: lighter;
+     transform-origin: center;
+     animation :rotate 1.5s ease 1;
+     color: black;
+    }
+   
+    @keyframes rotate{
+      0%{transform: perspective(600px) rotatey(90deg); transform-origin: center;}
+      100%{transform: perspective(600px) rotatey(0deg); transform-origin: center;}
+    }
+
+    .dropdown-item:nth-of-type(1) {
+      animation-delay: 0s;
+    }
+    .dropdown-item:nth-of-type(2) {
+      animation-delay: 0.1s;
+    }
+    .dropdown-item:nth-of-type(3) {
+      animation-delay: 0.2s;
+    }
+    .dropdown-item:nth-of-type(4) {
+      animation-delay: 0.3s;
+    }
+    .dropdown-item:nth-of-type(5) {
+      animation-delay: 0.4s;
+    }
+    .dropdown-item:nth-of-type(6) {
+      animation-delay: 0.5s;
+    }
+    .dropdown-item:nth-of-type(7) {
+      animation-delay: 0.6s;
+    }
+
+    .dropdown-item:hover {
+      background-color: #0652dd;
+      color: white;
+    }
+
+    .navbar-brand {
+      text-transform: uppercase;
+      font-family: impact;
+      font-size: 20px;
+      color: white;
+      letter-spacing: 2px;
+    }
