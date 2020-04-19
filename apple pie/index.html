@@ -17,8 +17,8 @@
 </head>
 
 <body>
-  <body data-spy="scroll" data-target="#main-nav" id="home">
-    <nav class="navbar navbar-expand-xl py-4 navbar-dark fixed-top" id="main-nav">
+  <d data-spy="scroll" data-target="#main-nav" id="home">
+    <nav class="navbar navbar-expand-xl py-4 navbar-dark  fixed-top" id="main-nav">
       <a href="index.html" class="navbar-brand ml-5">Apple</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse">
         <span class="navbar-toggler-icon"></span>
@@ -71,37 +71,41 @@
               <a href="contact.html" class="nav-link">Contact</a>
           </li>
           </ul>
-          <a href="#" class="btn btn-lg ml-2 mr-4"><span class="p-4">Get A Quote</span></a>
+          <a href="#" class="btn ml-2 mr-4"><span class="p-4">Get A Quote</span></a>
         </div>
     </nav>
 
     <!--Home section-->
   <section id="home-section">
-    <div class="container">
+  <div class="container">
         <div class="row py-5">
-          <div class="col-sm-12 ">
+          <div class="col-md-6">
             <h6 class="display-5">We solve UX problems to achieve your business goals!</h6>
             <br>
             <br>
             <h1 class="display-4"><strong>Better, Easier and together to fulfill your business goal.</strong></h1>
-            <div class="d-flex">
+            <div class="d-flex flex-column-reverse">
               <div class="p-4 align-self-start">
-                <button class="btn btn-lg" id="btn"><span class="p-4 text-white">Discover More</span></button>
+                <button class="btn btn" id="btn"><span class="p-4 text-white">Discover More</span></button>
               </div>
               <div class="p-4 align-self-end">
-                <button class="btn btn-lg" id="button"><span class="p-4">Our Services</span></button>
+                <button class="btn btn" id="button"><span class="p-4">Our Services</span></button>
               </div>
             </div>
+            
           </div>
-          <div class="col-md-6 d-none d-sm-block">
+           
+          <div class="col-sm-12 col-md-6">
             <img src="img/laptop.png" alt="" class="img-fluid pt-4 pl-5">
           </div>
-        </div>
-    </div>
+
+          </div>
+         
+  </div>
   </section>
     
    <!--Home icons-->
-   <section id="home-icons" class="py-5 bg-dark">
+   <section id="home-icons" class="py-5 bg-light">
     <div class="container">
       <h5 class="text-dark text-center">Features</h5>
       <h1 class="display-5 text-center"><span class="text-dark" style="font-weight: bold;">What We Do</h1>
@@ -241,15 +245,18 @@
  <section id="about" class="py-3">
 <div class="container">
   <div class="row">
-    <div class="col-sm-6 col-md-12 col-lg-4">
-     
-    </div>
+    <div class="col-sm-6 col-md-6 col-lg-6">
+      <div class="video-box">
+    <img src="img/create-section1.jpg" alt="video play" class="img-fluid p-4">
+     <!--<div class="play-btn js-modal" data-video-id="l7GeBlWe7r0" style="cursor: waiting;"></div>
+      <i class="fas fa-play"></i>-->
+     </div>
     </div>
 
-    <div class="col-sm-6 col-md-12 col-lg-4 text-center">
-      <h4 class="text-dark  pt-3 mr-3">About Us</h4>
-      <h1 class="text-dark mr-3">Crafting out a niche for your business in the web world</h1>
-      <p class="lead">But how did Cicero, that master stylist, come to be so badly manhandled as to be nearly
+    <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+      <h4 class="text-dark  ">About Us</h4>
+      <h1 class="text-dark ">Crafting out a niche for your business in the web world</h1>
+      <p class="lead text-justify">But how did Cicero, that master stylist, come to be so badly manhandled as to be nearly
          unrecognizable? Lorem Ipsum has a history that long predates online content management. 
          It has been used as filler text since the sixteenth century
           when---as McClintock theorized---“some typesetter had to make a type specimen book, to demo different
@@ -268,7 +275,9 @@
         </div>
     </div>
   </div>
-</div>
+
+   
+    </div>
  </section>
 
 <!--OUR PORTFOLIO WORKS-->
@@ -310,64 +319,56 @@
                 </div>
               </div>
                     </div>
+                  </div>
   
+                  <div class="row mb-3">
+                    <div class="col-sm-6 col-md-12 col-lg-4">
+                      <div class="single-works">
+                        <img src="img/create-section1.jpg" alt="">
+                        <div class="overlay-text">
+                          <h3 class="title">Web Design</h3>
+                          <span class="post"></span>
+                        </div>
+                      </div>
+                            </div>
+                  
+                
+                  
+                    <div class="col-sm-6 col-md-12 col-lg-4">
+                      <div class="single-works">
+                        <img src="img/create-section1.jpg" alt="">
+                        <div class="overlay-text">
+                          <h3 class="title">Web hosting</h3>
+                          <span class="post"></span>
+                        </div>
+                      </div>
+                            </div>
+                  
+                
+                  
+                            <div class="col-sm-6 col-md-12 col-lg-4">
+                              <div class="single-works">
+                                <img src="img/create-section1.jpg" alt="">
+                                <div class="overlay-text">
+                                  <h3 class="title">Branding</h3>
+                                  <span class="post"></span>
+                                </div>
+                              </div>
+                                    </div>
+                                  </div>
 
-  <!--<div class="row mb-3">
-    <div class="col-sm-6 col-md-12 col-lg-4">
-      <div class="single-works">
-        <img src="img/create-section1.jpg" alt="">
-        <div class="overlay-text">
-          <h3 class="title">Database Managementop</h3>
-          <span class="post"></span>
-        </div>
-      </div>
-            </div>-->
-    
-  
-    
-      <div class="col-sm-6 col-md-12 col-lg-4">
-        <div class="single-works">
-          <img src="img/create-section1.jpg" alt="">
-          <div class="overlay-text">
-            <h3 class="title">Database Management</h3>
-            <span class="post"></span>
-          </div>
-        </div>
-              </div>
-    
-  
-    
-      <div class="col-sm-6 col-md-12 col-lg-4">
-        <div class="single-works">
-          <img src="img/create-section1.jpg" alt="">
-          <div class="overlay-text">
-            <h3 class="title">UX research</h3>
-            <span class="post"></span>
-          </div>
-        </div>
-              </div>
-    
-    </div>
-
-</div>
 </div>
 </section>
 
 
                 <!--SUBSCRIPTION PACKAGES-->
-        <section id="subscriptions" class="bg-white text-black py-3">
+        <section id="subscriptions" class="bg-white text-dark py-3">
           <div class="container">
             <h6 class="pt-3 text-dark text-center text-primary" style="font-weight: 900; letter-spacing: 2px;">Subscriptions Packages</h6>
   <h4 class=" display-4 text-dark p-3 text-center " style="font-weight: bold;">Our Pricing Plans</h4>
-             <div class="col-md-4">
-               <div class="card">
-                 <div class="card-header">
-                   <div class="card-body">
-
-                   </div>
-                 </div>
-               </div>
-             </div>
+  <div class="col-md-4">
+    
+  </div>
           </div>
    </section> 
               
