@@ -288,9 +288,9 @@ body {
   
 
   
-  .video-box img{
+  #IMG{
     border-radius: 60px;
-    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+    
   }
   
   
@@ -425,4 +425,46 @@ body {
     opacity: 1;
     transform: scale(1);
   }
+
+
+   /*  TEAM MEMBERS */
+
+  #team-members .card {
+    border-radius: 15px;
+  }
+
+  #team-members .img {
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ddd solid; }
+  
+  #team-members img {
+    margin-top: -90px;
+    border: 10px #ffffff solid;
+   }
+
+  #team-members .card:hover {
+    background: #49dcb1;
+    color: #fff; }
+
+
+    /* GET IN TOUCH */
+
+  #Get-in-touch .form-control {
+    border-radius: 40px;
+    border: none;
+  }
+
+  #Get-in-touch .btn {
+    background: #5451c1;
+    color: #ffffff;
+    border-radius: 20px;
+     box-shadow: -15px 11px 40px -12px rgba(0, 0, 0, 0.75);
+  }
+
+  #Get-in-touch .btn:hover {
+    background: #49dcb1;
+    color: #ffffff
+  }
+
   
