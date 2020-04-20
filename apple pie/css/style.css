@@ -187,7 +187,6 @@ body {
   
     #home-icons .card {
     border-radius: 20px;
-    border: 1px solid #49dcb1;
     box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
     }
   
@@ -261,15 +260,7 @@ body {
   }
     
   
-  #about .dark-ovelay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-  
-  }
+
   
   #about #CAD {
     background: url(../img/create-section1.jpg);
@@ -288,8 +279,9 @@ body {
   
 
   
-  #IMG{
-    border-radius: 60px;
+  #about img:hover{
+    transform: rotate(360deg);
+    transition: all 2.0s ease;
     
   }
   
@@ -448,11 +440,49 @@ body {
     color: #fff; }
 
 
+    /*  CLIENTS FEEDBACK */
+
+    #Clients-feedback {
+      background: #0e2a55;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      min-height: 700px;
+      width: 100%;
+      opacity: 0.8;
+    }
+    
+
+    #Clients-feedback  img{
+border-radius: 3px #fff solid;
+
+    }
+
+    #Clients-feedback  .card{
+      border: 3px #fff solid;
+      border-radius: 120px;
+      margin-top: 130px;
+      box-shadow:  9px 40px -12px rgba(0, 0, 0, 0.75);
+      }
+
+      #Clients-feedback .card img {
+        transition: all 1.2s ease;
+      }
+
+      #Clients-feedback  .card:hover img {
+        transform: scale(0.9);
+      }
+
+      #Clients-feedback .card:hover {
+        filter: grayscale(100%);
+      }
+    
+  
+
     /* GET IN TOUCH */
 
   #Get-in-touch .form-control {
     border-radius: 40px;
-    border: none;
   }
 
   #Get-in-touch .btn {
