@@ -32,9 +32,8 @@ body {
   }
   
   * {
-    font-family: 'Dosis', sans-serif;
+  font-family: 'Economica', sans-serif;
   }
-  
   
    /*  NAVBAR  */
   
@@ -155,7 +154,7 @@ body {
     width:100%;
   }
   
-  #btn {
+ #btn {
   background: #49dcb1;
   border-radius: 50px;
   border: 1px solid #49dcb1;
@@ -187,7 +186,6 @@ body {
   
     #home-icons .card {
     border-radius: 20px;
-    border: 1px solid #49dcb1;
     box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
     }
   
@@ -261,15 +259,7 @@ body {
   }
     
   
-  #about .dark-ovelay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-  
-  }
+
   
   #about #CAD {
     background: url(../img/create-section1.jpg);
@@ -288,9 +278,10 @@ body {
   
 
   
-  .video-box img{
-    border-radius: 60px;
-    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  #about img:hover{
+    transform: rotate(360deg);
+    transition: all 2.0s ease;
+    
   }
   
   
@@ -424,5 +415,153 @@ body {
   .single-works:hover .overlay-text:after {
     opacity: 1;
     transform: scale(1);
+  }
+
+
+     /* OUR SUBSCRIPTIONS */
+
+     #subscriptions  .card {
+       border-radius: 5px;
+       background: #fff6f4;
+     }
+
+      /* NEWSLETTER */
+
+       #newsletter .jumbotron {
+         border-radius: 30px;
+         margin-top: -70px;
+         background: #0e2a55;
+         opacity: 0.9;
+       }
+
+       #newsletter .form-control {
+         border-radius: 30px;
+       }
+
+       #newsletter .btn {
+        border-radius: 15px;
+      }
+
+
+
+   /*  TEAM MEMBERS */
+
+  #team-members .card {
+    border-radius: 20px;
+  }
+
+  #team-members .img {
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ddd solid; }
+  
+  #team-members img {
+    margin-top: -90px;
+    border: 10px #ffffff solid;
+   }
+
+  #team-members .card:hover {
+    background: #49dcb1;
+    color: #fff; }
+
+
+    /*  CLIENTS FEEDBACK */
+
+    #Clients-feedback {
+      background: #0e2a55;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      min-height: 500px;
+      width: 100%;
+      opacity: 0.9;
+    }
+    
+
+    #Clients-feedback  img{
+border-radius: 3px #fff solid;
+
+    }
+
+    #Clients-feedback  .card{
+      border: 3px #fff solid;
+      border-radius: 120px;
+      margin-top: 70px;
+      box-shadow:  9px 40px -12px rgba(0, 0, 0, 0.75);
+      }
+
+      #Clients-feedback .card img {
+        transition: all 1.2s ease;
+      }
+
+      #Clients-feedback  .card:hover img {
+        transform: scale(0.9);
+      }
+
+      #Clients-feedback .card:hover {
+        filter: grayscale(100%);
+      }
+    
+  
+
+     /*  BLOG  */
+
+     #Blog {
+       overflow: hidden;
+     }
+
+     #Blog .card img {
+      transition: all 1.2s ease;
+     }
+
+     #Blog .card:hover img {
+       transform: scale(0.9);
+     }
+
+
+
+    /* GET IN TOUCH */
+
+  #Get-in-touch .form-control {
+    border-radius: 40px;
+  }
+
+  #Get-in-touch .btn {
+    background: #5451c1;
+    color: #ffffff;
+    border-radius: 20px;
+     box-shadow: -15px 11px 40px -12px rgba(0, 0, 0, 0.75);
+  }
+
+  #Get-in-touch .btn:hover {
+    background: #49dcb1;
+    color: #ffffff
+  }
+
+  
+  /* MAIN FOOTER */
+
+#main-footer {
+  background: #333;
+  opacity: 0.9;
+  color: #ffffff;
+}
+
+  #go-top {
+    color: #ffffff;
+    background: #5451c1;
+    border-radius: 40px;
+    opacity: 0.9;
+    transition: 3s;
+  }
+  
+  #go-top:hover {
+    color: #ffffff;
+    background: #49dcb1;
+  }
+  
+  
+  #Bottom {
+    transition: 1s;
   }
   
